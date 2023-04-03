@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: shopButtonAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 85f98f5b78111444ca55df9a437c6271, type: 3}
+    - {fileID: 2800000, guid: 8ef78f41febd40542bad5499dd680fa6, type: 3}
+    - {fileID: 2800000, guid: b187e195c00c24e4f91d3e80a65ffa82, type: 3}
+    - {fileID: 2800000, guid: 4aa6a7e99bc38a24b94958b9f0f1b38b, type: 3}
+    - {fileID: 2800000, guid: c209c327a10b8fa41a65f1c6537c9729, type: 3}
+    - {fileID: 2800000, guid: 1e4768506be1ea44abda6d3abc46ba44, type: 3}
+    - {fileID: 2800000, guid: c626c2fbcd93bd34aaeda93a2ed79397, type: 3}
+    - {fileID: 2800000, guid: 7175486dc0b593d4d8504cefad4486fb, type: 3}
+    - {fileID: 2800000, guid: d8568c1865d69b64ab5bab7c9474f64f, type: 3}
+    - {fileID: 2800000, guid: 462b13797c27c354abc167979ea70832, type: 3}
+    - {fileID: 2800000, guid: 8af427c6f8cc9cf4e8071488a54a21b9, type: 3}
+    - {fileID: 2800000, guid: b0a1813203462624697026e1a4f609e8, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1e4768506be1ea44abda6d3abc46ba44, type: 3}
+  - {fileID: 21300000, guid: 8ef78f41febd40542bad5499dd680fa6, type: 3}
+  - {fileID: 21300000, guid: b0a1813203462624697026e1a4f609e8, type: 3}
+  - {fileID: 21300000, guid: b187e195c00c24e4f91d3e80a65ffa82, type: 3}
+  - {fileID: 21300000, guid: 8af427c6f8cc9cf4e8071488a54a21b9, type: 3}
+  - {fileID: 21300000, guid: c209c327a10b8fa41a65f1c6537c9729, type: 3}
+  - {fileID: 21300000, guid: d8568c1865d69b64ab5bab7c9474f64f, type: 3}
+  - {fileID: 21300000, guid: 462b13797c27c354abc167979ea70832, type: 3}
+  - {fileID: 21300000, guid: 4aa6a7e99bc38a24b94958b9f0f1b38b, type: 3}
+  - {fileID: 21300000, guid: 85f98f5b78111444ca55df9a437c6271, type: 3}
+  - {fileID: 21300000, guid: c626c2fbcd93bd34aaeda93a2ed79397, type: 3}
+  - {fileID: 21300000, guid: 7175486dc0b593d4d8504cefad4486fb, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 31
+  - 21
+  - 50
+  - 22
+  - 42
+  - 30
+  - 40
+  - 41
+  - 23
+  - 20
+  - 32
+  - 33
+  m_RenderDataMap: {}
+  m_Tag: shopButtonAtlas
+  m_IsVariant: 0

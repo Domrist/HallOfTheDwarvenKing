@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d50147ad178a3d47ae25f6dbfdc5b59, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  nextButtonString: 
+  cancelButtonString: 
+  mainButtonsValues:
+  - key: NEXT
+    val: NEXT
+  - key: THROW
+    val: THROW
+  - key: REROLL
+    val: REROLL
+  - key: DELETE
+    val: DELETE
+  - key: ACCEPTBUY
+    val: ACCEPT BUY
+  - key: CANCELBUILD
+    val: CANCEL BUILD
+  - key: BUILD
+    val: BUILD
+  - key: MINE
+    val: MINE
+  - key: MAIN_MENU_PLAY_BUTTON
+    val: PLAY
+  - key: MAIN_MENU_SETTINGS_BUTTON
+    val: SETTINGS
+  - key: MAIN_MENU_ABOUT_BUTTON
+    val: ABOUT GAME
+  - key: GAME_MENU_RELOAD_SCENE_BUTTON
+    val: RELOAD GAME
+  - key: GAME_MENU_EXIT_BUTTON
+    val: EXIT
+  - key: GAME_MENU_MENU_BUTTON
+    val: MENU
+  - key: GAME_MENU_HIDE_SHOW_BUTTON
+    val: HIDE/SHOW
+  - key: GAME_MENU_SHOP_BUTTON
+    val: SHOP
+  - key: ABOUT_PANEL_AUTHORS_TITLE
+    val: Authors
+  - key: ABOUT_PANEL_ORIGINAL_AUTHOR
+    val: Author of original game
+  - key: ABOUT_PANEL_DIGITAL_DEVELOPER
+    val: Digital developer
+  - key: ABOUT_PANEL_BACK_BUTTON_TEXT
+    val: Back
+  phaseName:
+  - key: ROUNDSTART
+    val: Round start
+  - key: THROWPHASE
+    val: Throw phase
+  - key: BUYVALUESPHASE
+    val: Buy value phase
+  - key: FIGHTERPHASE
+    val: Fighters phase
+  - key: DRINKERSPHASE
+    val: Drinkers phase
+  - key: COOKINGPHASE
+    val: Cooking phase
+  - key: DIGGINGPHASE
+    val: Digging phase
+  - key: BUILDERSPHASE
+    val: Building phase
+  - key: MINERSPHASE
+    val: Mining phase
+  - key: ENDROUNDPHASE
+    val: End round
+  - key: REROLLPHASE
+    val: Reroll phase
+  shopBuildingLocalisationData:
+  - {fileID: 11400000, guid: 7f363912ee44c4d458a77a9ac7739bea, type: 2}
+  - {fileID: 11400000, guid: 62d1cdbcc7efe9e47aeb4538065d2eb4, type: 2}
+  - {fileID: 11400000, guid: 0d7e2855550c53a42b8345906b23cd3e, type: 2}
+  - {fileID: 11400000, guid: e355dffadbe9a514387c843434f86021, type: 2}
+  - {fileID: 11400000, guid: f347dc4a0bfc9d84498a87ee1dfd6872, type: 2}
+  - {fileID: 11400000, guid: 786fa7cfd660d53419ba32854ee73a82, type: 2}
+  - {fileID: 11400000, guid: 8820dc1a8366b404f9ea5fdbb9e4b15e, type: 2}
+  - {fileID: 11400000, guid: 9e37152f9cf980d4da48fbe4b9ee6fa6, type: 2}
+  - {fileID: 11400000, guid: 841b945005da42a42af825ae3597a2c0, type: 2}
+  - {fileID: 11400000, guid: c03f68411b6c1c14c839596a980299c4, type: 2}
+  - {fileID: 11400000, guid: 369b051f9133ae048bd2c2ed101e43a2, type: 2}
+  - {fileID: 11400000, guid: b9f3054cdf5ecea498287a95c0cea36a, type: 2}

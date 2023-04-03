@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d50147ad178a3d47ae25f6dbfdc5b59, type: 3}
+  m_Name: Russian
+  m_EditorClassIdentifier: 
+  nextButtonString: 
+  cancelButtonString: 
+  mainButtonsValues:
+  - key: NEXT
+    val: "\u0414\u0410\u041B\u0415\u0415"
+  - key: THROW
+    val: "\u0411\u0420\u041E\u0421\u0418\u0422\u042C"
+  - key: REROLL
+    val: "\u041F\u0415\u0420\u0415\u0411\u0420\u041E\u0421"
+  - key: DELETE
+    val: "\u0423\u0414\u0410\u041B\u0418\u0422\u042C"
+  - key: ACCEPTBUY
+    val: "\u041F\u041E\u0414\u0422\u0412\u0415\u0420\u0414\u0418\u0422\u042C\\n\u041F\u041E\u041A\u0423\u041F\u041A\u0423"
+  - key: CANCELBUILD
+    val: "\u041E\u0422\u041C\u0415\u041D\u0418\u0422\u042C\\n\u0421\u0422\u0420\u041E\u0418\u0422\u0415\u041B\u042C\u0421\u0422\u0412\u041E"
+  - key: BUILD
+    val: "\u041F\u041E\u0421\u0422\u0420\u041E\u0418\u0422\u042C"
+  - key: MINE
+    val: "\u0414\u041E\u0411\u042B\u0422\u042C"
+  - key: MAIN_MENU_PLAY_BUTTON
+    val: "\u0418\u0413\u0420\u0410\u0422\u042C"
+  - key: MAIN_MENU_SETTINGS_BUTTON
+    val: "\u041D\u0410\u0421\u0422\u0420\u041E\u0419\u041A\u0418"
+  - key: MAIN_MENU_ABOUT_BUTTON
+    val: "\u0410\u0412\u0422\u041E\u0420\u042B"
+  - key: GAME_MENU_RELOAD_SCENE_BUTTON
+    val: "\u041F\u0415\u0420\u0415\u0417\u0410\u041F\u0423\u0421\u0422\u0418\u0422\u042C
+      \u0418\u0413\u0420\u0423"
+  - key: GAME_MENU_EXIT_BUTTON
+    val: "\u0412\u042B\u0419\u0422\u0418"
+  - key: GAME_MENU_MENU_BUTTON
+    val: "\u041C\u0415\u041D\u042E"
+  - key: GAME_MENU_HIDE_SHOW_BUTTON
+    val: "\u0421\u041A\u0420\u042B\u0422\u042C/\u041F\u041E\u041A\u0410\u0417\u0410\u0422\u042C"
+  - key: GAME_MENU_SHOP_BUTTON
+    val: "\u041B\u0410\u0412\u041A\u0410"
+  - key: ABOUT_PANEL_AUTHORS_TITLE
+    val: "\u0410\u0432\u0442\u043E\u0440\u044B"
+  - key: ABOUT_PANEL_ORIGINAL_AUTHOR
+    val: "\u0410\u0432\u0442\u043E\u0440 \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\u0430"
+  - key: ABOUT_PANEL_DIGITAL_DEVELOPER
+    val: "\u0410\u0432\u0442\u043E\u0440 \u0446\u0438\u0444\u0440\u043E\u0432\u043E\u0439
+      \u0430\u0434\u0430\u043F\u0442\u0430\u0446\u0438\u0438"
+  - key: ABOUT_PANEL_BACK_BUTTON_TEXT
+    val: "\u041D\u0410\u0417\u0410\u0414"
+  phaseName:
+  - key: ROUNDSTART
+    val: "\u041D\u0430\u0447\u0430\u043B\u043E \u0440\u0430\u0443\u043D\u0434\u0430"
+  - key: THROWPHASE
+    val: "\u0424\u0430\u0437\u0430 \u0431\u0440\u043E\u0441\u043A\u0430"
+  - key: BUYVALUESPHASE
+    val: "\u0424\u0430\u0437\u0430 \u043F\u043E\u043A\u0443\u043F\u043A\u0438 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0439"
+  - key: FIGHTERPHASE
+    val: "\u0424\u0430\u0437\u0430 \u0434\u0440\u0430\u0447\u0443\u043D\u043E\u0432"
+  - key: DRINKERSPHASE
+    val: "\u0424\u0430\u0437\u0430 \u0431\u0443\u0445\u0430\u0440\u0438\u043A\u043E\u0432"
+  - key: COOKINGPHASE
+    val: "\u0424\u0430\u0437\u0430 \u0444\u0435\u0440\u043C\u0435\u0440\u043E\u0432"
+  - key: DIGGINGPHASE
+    val: "\u0424\u0430\u0437\u0430 \u0448\u0430\u0445\u0442\u0451\u0440\u043E\u0432"
+  - key: BUILDERSPHASE
+    val: "\u0424\u0430\u0437\u0430 \u0440\u0435\u043C\u0435\u0441\u043B\u0435\u043D\u043D\u0438\u043A\u043E\u0432"
+  - key: MINERSPHASE
+    val: "\u0424\u0430\u0437\u0430 \u0440\u0443\u0434\u043E\u043A\u043E\u043F\u043E\u0432"
+  - key: ENDROUNDPHASE
+    val: "\u041A\u043E\u043D\u0435\u0446 \u0440\u0430\u0443\u043D\u0434\u0430"
+  - key: REROLLPHASE
+    val: "\u0424\u0430\u0437\u0430 \u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\u0430"
+  shopBuildingLocalisationData:
+  - {fileID: 11400000, guid: a788b462259bf0f4d932046d93c980ce, type: 2}
+  - {fileID: 11400000, guid: ff7c952c4bddbf549bfe367ea3e1e33a, type: 2}
+  - {fileID: 11400000, guid: 0c7cc13809c2b77499ae8d57e2003c92, type: 2}
+  - {fileID: 11400000, guid: 57ab2fb9d273a884eb576826b5939268, type: 2}
+  - {fileID: 11400000, guid: 36e0139b728381046acc21eee9415e57, type: 2}
+  - {fileID: 11400000, guid: 5065f2a4f45e5304d8a395e816559098, type: 2}
+  - {fileID: 11400000, guid: 16dd79c5db272b948867cbeaada1aa83, type: 2}
+  - {fileID: 11400000, guid: c1071860211d5ef4885ae7aee89bb32f, type: 2}
+  - {fileID: 11400000, guid: fca5571af72601d4c973e44a791356f5, type: 2}
+  - {fileID: 11400000, guid: a06bd99c4c74e98419fc44a806f1f700, type: 2}
+  - {fileID: 11400000, guid: 0b508cf2bf069564cb6e0d1d9b796c5f, type: 2}
+  - {fileID: 11400000, guid: f0f648c6d88f0cc48bfe96afa495f87e, type: 2}
